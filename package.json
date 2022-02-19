@@ -51,12 +51,12 @@
     "firebase": "^9.6.6",
     "firebase-admin": "^10.0.2",
     "fs": "^0.0.1-security",
+    "nodemon": "^2.0.15",
     "path": "^0.12.7",
     "util": "^0.12.4"
   },
   "devDependencies": {
     "dotenv": "^16.0.0",
-    "env": "^0.0.2",
-    "nodemon": "^2.0.15"
+    "env": "^0.0.2"
   }
 }
