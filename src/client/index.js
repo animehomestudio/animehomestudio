@@ -1,7 +1,7 @@
 const { Client, Intents } = require('discord.js');
 const package = require('./../../package.json');
 
-const token = 'YOUR DISCORD BOT TOKEN HERE';
+const token = 'DISCORD_APPLICATION_TOKEN';
 
 const client = new Client({
     intents: [
