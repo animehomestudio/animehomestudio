@@ -1,7 +1,7 @@
 const { Client, Intents } = require('discord.js');
 const package = require('./../../package.json');
 
-const token = 'DISCORD_APPLICATION_TOKEN';
+const token = DISCORD_APPLICATION_TOKEN;
 
 const client = new Client({
     intents: [
@@ -43,7 +43,7 @@ client.on('ready', () => {
         Users          : ${client.users.cache.size}
         Commands       : ${client.commands.size}
         Interactions   : ${client.interactions.size}
-        Prefix         : ${application.prefix}
+        Prefix         : .
         Version        : ${package.version}
     `);
 
