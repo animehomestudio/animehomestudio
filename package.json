@@ -1,0 +1,62 @@
+{
+  "name": "animehomestudio",
+  "version": "0.0.0",
+  "description": "Anime Home Studio's official website and Discord community bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/client/index.js",
+    "dev": "nodemon src/client/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/animehomestudio/animehomestudio.git"
+  },
+  "keywords": [
+    "@discordjs/builders",
+    "@discordjs/rest",
+    "Anime Home Studio API",
+    "animehomestudio.js",
+    "Bot",
+    "Discord",
+    "Discord API",
+    "discord.js",
+    "discord-api-types",
+    "discord-api-types/v9",
+    "dotenv",
+    "express",
+    "env",
+    "firebase",
+    "firebase-admin",
+    "GitHub",
+    "JavaScript",
+    "Node.js",
+    "nodemon",
+    "Node Package Manager",
+    "Open Source"
+  ],
+  "author": "Anime Home Studio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/animehomestudio/animehomestudio/issues"
+  },
+  "homepage": "https://github.com/animehomestudio/animehomestudio#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "canvas": "^2.9.0",
+    "common-tags": "^1.8.2",
+    "discord-api-types": "^0.27.0",
+    "discord.js": "^13.6.0",
+    "express": "^4.17.2",
+    "firebase": "^9.6.6",
+    "firebase-admin": "^10.0.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "util": "^0.12.4"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "env": "^0.0.2",
+    "nodemon": "^2.0.15"
+  }
+}
