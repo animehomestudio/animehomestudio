@@ -1,7 +1,6 @@
+require('dotenv').config();
 const { Client, Intents } = require('discord.js');
 const package = require('./../../package.json');
-
-const token = DISCORD_APPLICATION_TOKEN;
 
 const client = new Client({
     intents: [
@@ -58,4 +57,4 @@ client.on('ready', () => {
     }, 30000);
 });
 
-client.login(token);
+client.login(process.env.DISCORD_APPLICATION_TOKEN);
